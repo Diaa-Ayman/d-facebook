@@ -1,7 +1,10 @@
 import React from 'react';
+import { signOut } from 'next-auth/client';
+
 function SidebarRow({ src, Icon, title }) {
   return (
     <div
+      onClick={signOut}
       className={` ${
         src && 'mb-6'
       } flex items-center mt-2 ml-2 p-2 space-x-2 cursor-pointer hover:bg-gray-200 rounded-full`}

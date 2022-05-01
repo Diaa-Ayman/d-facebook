@@ -30,7 +30,7 @@ function Post({ name, profileImage, postImage, text, timeStamp }) {
           <img
             src={postImage}
             alt='postImage'
-            className=' h-96 md:h-auto w-full rounded-none hover:brightness-105 transform transition duration-400 hover:brightness-95 cursor-pointer'
+            className='rounded-none hover:brightness-105 transform transition duration-400 hover:brightness-95 cursor-pointer'
           />
         )}
       </div>

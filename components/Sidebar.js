@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSession, signOut } from 'next-auth/client';
+import { useSession } from 'next-auth/client';
 import {
   ChevronDownIcon,
   ShoppingBagIcon,
@@ -16,11 +16,7 @@ function Sidebar() {
   const [session, loading] = useSession();
   return (
     <div className='max-w-[600] xl:min-w-[300] md:w-1/5'>
-      <SidebarRow
-        onClick={signOut}
-        src={session.user.image}
-        title={session.user.name}
-      />
+      <SidebarRow src={session.user.image} title={session.user.name} />
 
       <SidebarRow Icon={UsersIcon} title='Friends' />
       <SidebarRow Icon={UserGroupIcon} title='Groups' />
