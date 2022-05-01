@@ -14,7 +14,7 @@ export default function Home({ session, posts }) {
         <title>D-facebook</title>
       </Head>
       <Header />
-      <main className='flex space-x-4 lg:justify-between justify-evenly'>
+      <main className='flex space-x-4 lg:justify-between justify-center'>
         <Sidebar />
         <Feed posts={posts} />
         <Widgets />
