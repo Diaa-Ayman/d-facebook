@@ -24,12 +24,13 @@ function Header() {
       {/* Left */}
       <div className='flex items-center space-x-2 '>
         <Image
+          onClick={signOut}
           src='https://links.papareact.com/5me'
           alt='logo'
           width={35}
           height={35}
           layout='fixed'
-          className='mr-2'
+          className='mr-2 cursor-pointer'
         />
         <div className='flex items-center bg-gray-100 p-2 rounded-full'>
           <SearchIcon

@@ -36,7 +36,7 @@ function Post({ name, profileImage, postImage, text, timeStamp }) {
       </div>
 
       <hr></hr>
-      <div className='flex items-center justify-between px-6 mt-1'>
+      <div className='flex items-center justify-between mt-1'>
         <div className='reaction hover:text-cyan-500'>
           <ShareIcon />
           <span>Share</span>

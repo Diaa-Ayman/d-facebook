@@ -4,7 +4,7 @@ import Posts from './Posts';
 const posts = [];
 export default function Feed({ posts }) {
   return (
-    <div className='w-80 lg:w-2/5 overflow-auto scrollbar-hide h-screen pb-20'>
+    <div className='w-11/12 items-center lg:w-2/5 overflow-auto scrollbar-hide h-screen pb-20'>
       {/* Stories */}
       <Stories />
       {/* InputBox */}

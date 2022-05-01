@@ -15,7 +15,7 @@ import SidebarRow from './SidebarRow';
 function Sidebar() {
   const [session, loading] = useSession();
   return (
-    <div className='max-w-[600] xl:min-w-[300] md:w-1/5'>
+    <div className='max-w-[600] xl:min-w-[300] md:w-1/5 hidden md:inline-flex flex-col'>
       <SidebarRow src={session.user.image} title={session.user.name} />
 
       <SidebarRow Icon={UsersIcon} title='Friends' />

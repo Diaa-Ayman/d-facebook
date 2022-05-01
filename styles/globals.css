@@ -10,7 +10,7 @@
     @apply flex items-center space-x-1 hover:bg-gray-100 cursor-pointer p-2 rounded-xl;
   }
   .reaction {
-    @apply hover:bg-gray-100 cursor-pointer px-8 py-2 overflow-hidden flex items-center space-x-1 text-gray-500 rounded-sm transition duration-200 ease-out text-xs md:text-sm font-medium;
+    @apply hover:bg-gray-100 cursor-pointer px-4 md:px-8 py-2 overflow-hidden flex items-center space-x-1 text-gray-500 rounded-sm transition duration-200 ease-out text-xs md:text-sm font-medium;
   }
   .reaction svg {
     @apply h-5;
